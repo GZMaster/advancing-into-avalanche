@@ -1,8 +1,8 @@
 import axios from "axios";
 import FormData from "form-data";
 
-const API_KEY = "INSERT_API_KEY_HERE";
-const API_SECRET = "INSERT_API_SECRET_HERE";
+const API_KEY = "9298b7c4874cdeb2aefa";
+const API_SECRET = "35124704b1f4b5c24fc07c97d297ef38be47d7d628929089db768e84cf646fde";
 
 export default async function uploadImage(fileLocation, fileName) {
   const response = await axios.get(fileLocation, {
